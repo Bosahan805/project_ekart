@@ -1,0 +1,1083 @@
+<html>
+<head>
+<link rel="icon" href="icon1.png">
+<title>GReEN Kart</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+#a1
+{
+    color:white;
+}
+.b1
+{
+    list-style-type: none;
+    border-radius: 2px;
+    display: flex;
+}
+#c3
+{
+    position: absolute;
+    top:35px;
+    left: 850px;
+}
+#c4
+{
+    position: absolute;
+    top: 18px;
+    right: 100px;
+    border-radius: 10px;
+}
+#c1
+{
+    position:absolute;
+    left: 10px;
+    z-index: 0;
+}
+#c2
+{
+    position: relative;
+    right: 0px;
+    left: 300px;
+    font-family: cursive;
+}
+#b2
+{
+    display: flex;
+    list-style-type: none;
+    position: absolute;
+    left: 8px;
+    right: 8px;
+    top: 72px;
+    background-image: linear-gradient(to right, rgb(10, 39, 2) , rgb(8, 241, 40) , rgb(0, 19, 3));
+    color:white;
+    padding: 20px;
+}
+#c5
+{
+    position:absolute;
+    top:10px;
+    left:200px;
+    }
+    #g1
+{
+    position:absolute;
+    top:10px;
+    }
+    #c5:hover{
+        background-color: #db8009;
+    }
+    #c6
+{
+    position:absolute;
+    top:10px;
+    left: 350px;
+    }
+    #c6:hover{
+        background-color: #db8009;
+    }
+    #c7
+{
+    position:absolute;
+    top:10px;
+    left: 500px;
+    }
+    #c7:hover{
+        background-color: #db8009;
+    }
+    #c8
+{
+    position:absolute;
+    top:10px;
+    left:680px;
+    }
+    #c8:hover{
+        background-color: #db8009;
+    }
+    #c9
+{
+    position:absolute;
+    top:10px;
+    left: 850px;
+    }
+    #c9:hover{
+        background-color: #db8009;
+    }
+    #c10
+{
+    position:absolute;
+    top:10px;
+    left:1050px;
+    }
+    #c10:hover{
+        background-color: #db8009;
+    }
+    #c11
+{
+    position:absolute;
+    top:10px;
+    left:1200px;
+    }
+    #c11:hover{
+        background-color: #db8009;
+    }
+input
+{
+    width:300px;
+    padding: 5px;
+}
+#d1
+{
+    position: absolute;
+    top:1px;
+    right:51px;
+    height: 27px;
+    background-color: #ad1d09;
+    color: white;
+}
+#d5
+{
+    list-style-type: none;
+    transform: translateX(-0px);
+    padding: 20px;
+    background-color:rgb(31, 179, 43) ;
+    display: none;
+}
+#b2 #c6:hover #d5
+{
+    display:block;
+}
+#d8
+{
+    background-color: rgb(31, 179, 43);
+    list-style-type: none;
+    padding: 10px;
+    display: none;
+}
+#b2 #c7:hover #d8
+{
+    display: block;
+}
+#d12
+{
+    background-color: rgb(31, 179, 43);
+    list-style-type: none;
+    padding: 15px;
+    display: none;
+}
+#b2 #c8:hover #d12{
+    display: block;
+}
+#d13
+{
+    background-color: rgb(31, 179, 43);
+    list-style-type: none;
+    padding: 15px;
+    display: none;
+}
+#b2 #c9:hover #d13{
+    display: block;}
+    #d14
+{
+    background-color: rgb(31, 179, 43);
+    list-style-type: none;
+    padding: 15px;
+    display: none;
+}
+#b2 #c10:hover #d14{
+    display: block;}
+    #d15
+{
+    background-color: rgb(31, 179, 43);
+    list-style-type: none;
+    padding: 15px;
+    display: none;
+}
+#b2 #c11:hover #d15{
+    display: block;}
+    
+    nav{
+	position:absolute;
+	top:30px;
+    left:0px;
+	background-color:black;
+	min-height:80vh;
+	color:white;
+	box-sizing:border-box;
+	padding:20px;
+	text-align:center;
+    list-style-type: none;
+    width:300%;
+    transform: translateX(-20px);
+    display: none;
+    }
+    #g1:hover{
+        background-color: #db8009;
+    }
+    #b2 #g1:hover nav{
+    display: block;}
+
+    #g2
+    {
+        position: absolute;
+        top:80px;
+        
+    }
+    #g3
+    {
+        position: absolute;
+        top:180px;
+
+    }
+    #g4
+    {
+        position: absolute;
+        top:260px;
+
+    }
+    #g5
+    {
+        position: absolute;
+        top:320px;
+
+    }
+    #g6
+    {
+        position: absolute;
+        top:500px;
+    }
+    .mySlides 
+    {display: none
+    }
+#j1 {
+    width:500px;
+    height:300px;
+    z-index: -3;
+
+}
+    .slideshow-container {
+  max-width: 1000px;
+  position: absolute;
+  left:450px;
+  justify-content: center;
+  top:200px;
+  z-index: -1;
+    }
+    .prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+body{
+    background-color: #276221;
+    background-image: linear-gradient(to right, rgb(24, 87, 7) , rgb(14, 218, 41) , rgb(19, 109, 31));;
+}
+#n1
+{
+    position: absolute;
+    right: 20px;
+    top: 32px;
+}
+.fa-search
+{
+    position:absolute;
+    right:55px;
+}
+#a2
+{
+    border-radius: 10%;
+    border-color: #14b103;
+    background-color: #94f889;
+}
+.myslide
+{
+    position: absolute;
+    top:220px;
+    z-index: -1;
+    left: 400px;
+    border-radius: 10%;
+    opacity: 10px;
+}
+#k2
+{    position: absolute;
+    top:75px;
+    width:99%;
+    padding: 0px;
+    text-align: center;
+    font-size: 70px;
+    z-index: -1;
+   color: #fff;
+   text-align: center;
+   animation: fun 1s ease-in-out infinite alternate;
+}
+@keyframes fun {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #e63f3f, 0 0 30px #cc2222, 0 0 40px #cf1c1c, 0 0 50px #f83939, 0 0 60px #b90a0a, 0 0 70px #a12525;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #920505, 0 0 40px #9e0505, 0 0 50px #b10808, 0 0 60px #ad0303, 0 0 70px #640f0f, 0 0 80px #5e0808;
+  }
+}
+.j1{
+    animation: fun1 1s ease-in-out infinite alternate;
+}
+@keyframes fun1 {
+  from {
+    text-shadow: 0 0 10px #740404, 0 0 20px #e63f3f, 0 0 30px #a83001, 0 0 40px #dd3907fa, 0 0 50px #a10606, 0 0 60px #db3908, 0 0 70px #169c38;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #750808de, 0 0 30px #920505, 0 0 40px #9e0505, 0 0 50px #b10808, 0 0 60px #ad0303, 0 0 70px #9e0404, 0 0 80px #08851d;
+  }
+}
+#o1
+{
+    min-height:10vh;
+	width:13%;
+	border-radius: 10px;
+	box-shadow: 5px 5px 6px rgba(0,0,0,.5),
+	            -5px -5px 6px rgba(0,0,0,.5);
+				background-color:rgb(145, 190, 145);
+	position:absolute;
+	left:200px;
+	top:270px;
+	text-align:center;
+}
+#o2
+{
+    width:100%;
+    height:20px;
+    background-color: rgb(1, 24, 12);
+    color:white;
+    border-radius: 30px; 
+    border-color:#276221 ;
+    transform: translateX(-0px);
+    cursor: pointer;
+}
+#o3
+{
+    min-height:10vh;
+	width:13%;
+	border-radius: 10px;
+	box-shadow: 5px 5px 6px rgba(0,0,0,.5),
+	            -5px -5px 6px rgba(0,0,0,.5);
+				background-color:rgb(145, 190, 145);
+	position:absolute;
+	right:150px;
+	top:270px;
+	text-align:center;
+    z-index: -1;
+}
+.checked{
+    color: gold;
+}
+.combo
+{
+    position: absolute;
+    top:250px;
+    left:30px;
+    border-radius: 50%;
+    height:100px;
+    width:100px;
+    box-sizing: border-box;
+    z-index: -1;
+}
+.combo{
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+    animation: swinging 3.5s ease-in-out forwards infinite;
+}
+@keyframes swinging{
+    0%{transform: rotate(10deg);}
+    50%{transform: rotate(-5deg)}
+    100%{transform: rotate(10deg);}
+}
+.la
+{
+    position: absolute;
+    top:260px;
+    left:30px;
+    font-size: 18px;
+    animation: glow1 1s ease-in-out infinite alternate;
+}
+@keyframes glow1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+.la1
+{
+    position: absolute;
+    top:390px;
+    left:35px;
+    font-size: 18px;
+    animation: glow2 1s ease-in-out infinite alternate;
+}
+@keyframes glow2 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+.la2
+{
+    position: absolute;
+    top:510px;
+    left:30px;
+    font-size: 18px;
+    animation: glow3 1s ease-in-out infinite alternate;
+}
+@keyframes glow3 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+.combo1
+{
+    position: absolute;
+    top:380px;
+    left:30px;
+    border-radius: 50%;
+    height:100px;
+    width:100px;
+    box-sizing: border-box;
+    z-index: -1;
+}
+.combo1{
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+    animation: swinging1 3.5s ease-in-out forwards infinite;
+}
+@keyframes swinging1{
+    0%{transform: rotate(10deg);}
+    50%{transform: rotate(-5deg)}
+    100%{transform: rotate(10deg);}
+}
+.combo2
+{
+    position: absolute;
+    top:500px;
+    left:30px;
+    border-radius: 50%;
+    height:100px;
+    width:100px;
+    box-sizing: border-box;
+    z-index: -1;
+}
+.combo2{
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+    animation: swinging2 3.5s ease-in-out forwards infinite;
+}
+@keyframes swinging2{
+    0%{transform: rotate(10deg);}
+    50%{transform: rotate(-5deg)}
+    100%{transform: rotate(10deg);}
+}
+.combo3
+{
+    position: absolute;
+    top:250px;
+    right:30px;
+    border-radius: 50%;
+    height:100px;
+    width:100px;
+    box-sizing: border-box;
+    z-index: -1;
+}
+.combo3{
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+    animation: swinging3 3.5s ease-in-out forwards infinite;
+}
+@keyframes swinging3{
+    0%{transform: rotate(10deg);}
+    50%{transform: rotate(-5deg)}
+    100%{transform: rotate(10deg);}
+}
+.combo4
+{
+    position: absolute;
+    top:380px;
+    right:30px;
+    border-radius: 50%;
+    height:100px;
+    width:100px;
+    box-sizing: border-box;
+    z-index: -1;
+}
+.combo4{
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+    animation: swinging4 3.5s ease-in-out forwards infinite;
+}
+@keyframes swinging4{
+    0%{transform: rotate(10deg);}
+    50%{transform: rotate(-5deg)}
+    100%{transform: rotate(10deg);}
+}
+.combo5
+{
+    position: absolute;
+    top:500px;
+    right:30px;
+    border-radius: 50%;
+    height:100px;
+    width:100px;
+    box-sizing: border-box;
+    z-index: -1;
+}
+.combo5{
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+    animation: swinging5 3.5s ease-in-out forwards infinite;
+}
+@keyframes swinging5{
+    0%{transform: rotate(10deg);}
+    50%{transform: rotate(-5deg)}
+    100%{transform: rotate(10deg);}
+}
+.la3
+{
+    position: absolute;
+    top:260px;
+    right:30px;
+    font-size: 18px;
+    animation: glow4 1s ease-in-out infinite alternate;
+}
+@keyframes glow4 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+.la4
+{
+    position: absolute;
+    top:390px;
+    right:35px;
+    font-size: 18px;
+    animation: glow5 1s ease-in-out infinite alternate;
+}
+@keyframes glow5 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+.la5
+{
+    position: absolute;
+    top:510px;
+    right:30px;
+    font-size: 18px;
+    animation: glow6 1s ease-in-out infinite alternate;
+}
+@keyframes glow6 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+#o6
+{
+    min-height:10vh;
+	width:13%;
+	border-radius: 10px;
+	box-shadow: 5px 5px 6px rgba(0,0,0,.5),
+	            -5px -5px 6px rgba(0,0,0,.5);
+				background-color:rgb(145, 190, 145);
+	position:absolute;
+	left:30px;
+	top:650px;
+	text-align:center;
+    z-index: -1;
+}
+#o7
+{
+    min-height:10vh;
+	width:13%;
+	border-radius: 10px;
+	box-shadow: 5px 5px 6px rgba(0,0,0,.5),
+	            -5px -5px 6px rgba(0,0,0,.5);
+				background-color:rgb(145, 190, 145);
+	position:absolute;
+	left:250px;
+	top:650px;
+	text-align:center;
+    z-index: -1;
+}
+#o8
+{
+    min-height:10vh;
+	width:13%;
+	border-radius: 10px;
+	box-shadow: 5px 5px 6px rgba(0,0,0,.5),
+	            -5px -5px 6px rgba(0,0,0,.5);
+				background-color:rgb(145, 190, 145);
+	position:absolute;
+	left:470px;
+	top:650px;
+	text-align:center;
+    z-index: -1;
+}
+#o9
+{
+    min-height:10vh;
+	width:13%;
+	border-radius: 10px;
+	box-shadow: 5px 5px 6px rgba(0,0,0,.5),
+	            -5px -5px 6px rgba(0,0,0,.5);
+				background-color:rgb(145, 190, 145);
+	position:absolute;
+	left:690px;
+	top:650px;
+	text-align:center;
+    z-index: -1;
+}
+#o10
+{
+    min-height:10vh;
+	width:13%;
+	border-radius: 10px;
+	box-shadow: 5px 5px 6px rgba(0,0,0,.5),
+	            -5px -5px 6px rgba(0,0,0,.5);
+				background-color:rgb(145, 190, 145);
+	position:absolute;
+	left:910px;
+	top:650px;
+	text-align:center;
+    z-index: -1;
+}
+#o11
+{
+    min-height:10vh;
+	width:13%;
+	border-radius: 10px;
+	box-shadow: 5px 5px 6px rgba(0,0,0,.5),
+	            -5px -5px 6px rgba(0,0,0,.5);
+				background-color:rgb(145, 190, 145);
+	position:absolute;
+	left:1130px;
+	top:650px;
+	text-align:center;
+    z-index: -1;
+}
+#footer
+{
+    background-color: black;
+    color:white;
+    position:absolute;
+    top:980px;
+    width:100%;
+}
+.v1
+{
+    padding: 10px;
+}
+.v2
+{
+    padding:10px;
+}
+.v3
+{
+    position: absolute;
+    right:30px;
+    bottom:50px ;
+    padding:20px;
+    width:100;
+
+}
+a
+{
+    text-decoration: none;
+    color:white;
+}
+</style>
+</head>
+<body>
+    <div id="a1">
+        <ul class="b1">
+    <li id="c1"><img src="logo2.jpg" width="80" height="80 "> &nbsp; &nbsp; &nbsp;</li>
+    <li id="c2"><h1> GREEN KART... </h1> &nbsp; &nbsp; &nbsp;</li>
+    <li id="c3"><input type="text" id="a2" placeholder="Search Vegitables">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<i class="fa fa-search" style="font-size:28px;color:red"></i></li>
+    <li id="c4"><h3><a href="login.html">Sign in</a></h3></li>
+    <li id="n1"><img src="icon1.png" width="30" height="30"> </li>
+    </ul>
+</div>
+<div id="a3">
+    <ul id="b2">
+        <li id="g1">Profile
+            <nav>
+                <li id="g2"> My Profile</li>
+                <li id="g3"> Wish List</li>
+                <li id="g4">My Orders</li>
+                <li id="g5">My Address</li>
+                <li id="g6">Logout</li>
+            </nav>
+        </li>
+        <li id="c5"><a href="ekart.html">Home</a></li>
+        <li id="c6"><a href="ekart1.html">Fruits</a>
+            <ul id="d5">
+                <li> Apple</li><hr/>
+                <li>Banana</li><hr/>
+                <li>Grape</li><hr/>
+                <li>Mango</li><hr/>
+                <li>Strawberries</li><hr/>
+                <li>Pineaple</li><hr/>
+                <li>Orange</li><hr/>
+                <li>Pomegranate</li><hr/>
+                <li>Watermelon</li><hr/>
+                <li>Lemon</li><hr/>
+                <li>Kiwi</li><hr/>
+                <li>Cherry</li><hr/>
+                <li>Mangosteen</li><hr/>
+                <li>Dragonfruit</li><hr/>
+                <li>Avocados</li><hr/>
+                <li>Papaya</li>
+            </ul>
+        </li>
+        <li id="c7"><a href="ekart2.html">Vegetables</a>
+         <ul id="d8">
+            <li>Brinjal</li><hr/>
+            <li>Capsicum</li><hr/>
+            <li>Potato</li><hr/>
+            <li>Onion</li><hr/>
+            <li>Carrot</li><hr/>
+            <li>Cabbage</li><hr/>
+            <li>Bitter Gourd</li><hr/>
+            <li>Tomato</li><hr/>
+            <li>Beetroot</li><hr/>
+            <li>Cauliflower</li><hr/>
+            <li>Pumpkin</li>
+         </ul></li>
+        <li id="c8"><a href="ekart3.html">Nuts</a> 
+            <ul id="d12">
+                <li>Peanut</li><hr/>
+                <li>Almond</li><hr/>
+                <li>Poppy Seeds</li><hr/>
+                <li>Dates</li><hr/>
+                <li>Cashews</li><hr/>
+                <li>Walnut</li><hr/>
+                <li>Pistachio</li><hr/>
+                <li>Pumpkin Seads</li><hr/>
+                <li>Betal Nut</li><hr/>
+                <li>Sesame Seeds</li>
+            </ul>
+        </li>
+        <li id="c9"><a href="ekart4.html">Green Leaf</a>
+            <ul id="d13">
+                <li>Spinach</li><hr/>
+                <li>Kale</li><hr/>
+                <li>Broccoli</li><hr/>
+                <li>Arugula</li><hr/>
+                <li>Bok Choy</li><hr/>
+                <li>Cabbage</li><hr/>
+                <li>Lettuce</li><hr/>
+                <li>Spring Onion</li>
+            </ul>
+        </li>
+        <li id="c10"><a href="ekart5.html">Country Seeds</a>
+            <ul id="d14">
+            <li>Brinjal</li><hr/>
+            <li>Arakeerai</li><hr/>
+            <li>Potato</li><hr/>
+            <li>Onion</li><hr/>
+            <li>Carrot</li><hr/>
+            <li>Cabbage</li><hr/>
+            <li>Bitter Gourd</li><hr/>
+            <li>Tomato</li><hr/>
+            <li>Beetroot</li><hr/>
+            <li>Cauliflower</li><hr/>
+            <li>Pumpkin</li>
+                </ul>
+            </li>
+        <li id="c11"><a href="ekart6.html">Hybrid Seeds</a>
+            <ul id="d15">
+                <li>Bottle Gourd</li><hr/>
+                <li>Sponge Gourd</li><hr/>
+                <li>Ridge Gourd</li><hr/>
+                <li>Tomato</li><hr/>
+                <li>Chilly</li><hr/>
+                <li>French Beans</li><hr/>
+                <li>Coriander </li>
+            </ul>
+        </li>
+    </ul>
+    
+    <div class="offer">
+        <H2 id="k2" style="background-image: url('img6.jpg');">Flat 10% offer For Vegetables!!!!</H2>
+    </div>
+    
+    <div class="offer">
+        <H2 id="k2" style="background-image: url('nutimg.jpg');">Flat 30% offer For Nuts...</H2>
+    </div>
+    <div class="offer">
+        <H2 id="k2" style="background-image: url('cseeds.jpg');">Flat 5% offer For Country Seeds...</H2>
+    </div>
+    <div class="offer">
+        <H2 id="k2" style="background-image: url('hseeds.jpg');">Flat 30% offer For Hybrid Seeds...</H2>
+    </div>
+    <div class="offer">
+        <H2 id="k2" style="background-image: url('img7.jpg');">Buy with Us !!!! Sale With US...</H2>
+    </div>
+    
+<img class="myslide" src="bgimg.jpg" width="600" height="400">
+<img class="myslide" src="img2.jpg" width="600" height="400">
+<img class="myslide" src="img3.jpg" width="600" height="400">
+<img class="myslide" src="img4.jpg" width="600" height="400">
+<img class="myslide" src="img5.jpg" width="600" height="400">
+<img class="myslide" src="img6.jpg" width="600" height="400">
+<img class="myslide" src="img7.jpg" width="600" height="400">
+<img class="myslide" src="img8.jpg" width="600" height="400">
+<img class="myslide" src="img9.jpg" width="600" height="400">
+<img class="myslide" src="img10.jpg" width="600" height="400">
+
+ <form action="new1.html">  <div id="o1">
+    <img src="watermelon.jpg" width="100" height="100"><br>
+    <h3>Watermelon</h3>
+    <h2 class="j1">Get 10% Offer</h2>
+    <span class="fa fa-star checked"></span>
+ <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<p>1 Kg = <del>Rs.30</del>&nbsp;<h5 id="p1">Rs.20</h5></p>
+<button id="o2"  onclick="takevalue()">Buy Now</button>
+</div> </form>
+<script>
+    function takevalue()
+    {
+       var num1=document.getElementById("p1").value();
+       localStorage.setItem("passValue",num1);
+    }
+</script>  
+<div id="o3">
+    <img src="grape.jpg" width="100" height="100"><br>
+    <h3>Grape</h3>
+    <h2 class="j1">Get 5% Offer</h2>
+    <span class="fa fa-star checked"></span>
+ <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<p>1 KG = <del>Rs. 40</del>&nbsp;Rs.30</p>
+<button id="o2" type="submit">Buy Now</button>
+</div>
+<img class="combo" src="bas1.jpg">
+<img class="combo1" src="bas2.jpg">
+<img class="combo2" src="bas3.jpg">
+<img class="combo3" src="bas4.jpg">
+<img class="combo4" src="bas5.jpg">
+<img class="combo5" src="bas6.jpg">   
+<h5 class="la">Get Combo!!</h5>
+<h5 class="la1">Less Price!!</h5>
+<h5 class="la2">Save Money!!</h5>
+<h5 class="la3">20% Offer</h5>
+<h5 class="la4">Get Seeds</h5>
+<h5 class="la5">Fresh Greens</h5>
+<script>
+    var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("offer");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 0}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 2000);
+}
+</script>
+<script>
+    var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("myslide");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+<div id="o6">
+    <img src="onion.jpg" width="100" height="100"><br>
+    <h3>Onion</h3>
+    <h2 class="j1">Get 7% Offer</h2>
+    <span class="fa fa-star checked"></span>
+ <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<p>1 KG = <del>Rs.50</del>&nbsp;Rs.35</p>
+<button id="o2" type="submit">Buy Now</button>
+</div>
+<div id="o7">
+    <img src="tomato.jpg" width="100" height="100"><br>
+    <h3>Tomato</h3>
+    <h2 class="j1">Get 5% Offer</h2>
+    <span class="fa fa-star checked"></span>
+ <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<p>1 KG = <del>Rs.20</del>&nbsp;Rs.18</p>
+<button id="o2" type="submit">Buy Now</button>
+</div>
+<div id="o8">
+    <img src="pinapple.jpg" width="100" height="100"><br>
+    <h3>Pinapple</h3>
+    <h2 class="j1">Get 2% Offer</h2>
+    <span class="fa fa-star checked"></span>
+ <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<p>1 KG = <del>Rs.50</del>&nbsp;Rs.35</p>
+<button id="o2" type="submit">Buy Now</button>
+</div>
+<div id="o9">
+    <img src="almond.jpg" width="100" height="100"><br>
+    <h3>Almond</h3>
+    <h2 class="j1">Get 10% Offer</h2>
+    <span class="fa fa-star checked"></span>
+ <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<p>1 KG = <del>Rs.900</del>&nbsp;Rs.800</p>
+<button id="o2" type="submit">Buy Now</button>
+</div>
+<div id="o10">
+    <img src="chillyseed.jpg" width="100" height="100"><br>
+    <h3>Chilly Seed</h3>
+    <h2 class="j1">Get 3% Offer</h2>
+    <span class="fa fa-star checked"></span>
+ <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<p>1 KG = <del>Rs.20</del>&nbsp;Rs.18</p>
+<button id="o2" type="submit">Buy Now</button>
+</div>
+<div id="o11">
+    <img src="strawbeery.jpg" width="100" height="100"><br>
+    <h3>Strawbeery</h3>
+    <h2 class="j1">Get 2% Offer</h2>
+    <span class="fa fa-star checked"></span>
+ <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<p>1 KG = <del>Rs.20</del>&nbsp;Rs.18</p>
+<button id="o2" type="submit">Buy Now</button>
+</div>
+<div id="footer">
+    <div class="v1">
+        <i>Green Kart</i><br/>
+        <i>Email: greenkart@gmail.com</i><br/>
+            phone : 1400 678 901
+        </div>
+     <div class="v2">
+        <i>Vegitables GreeenKart</i><br/>
+        <i>4th Cross Street</i><br/>
+        <i>Chennai-01</i>
+     </div>
+     <div class="v3">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-android"></a>
+     </div>
+</div>
